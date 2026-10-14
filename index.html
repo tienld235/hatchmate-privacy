@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — HatchMate</title>
+<style>
+  :root{
+    --ink:#2D241C; --muted:#7C6F63; --line:#EFE3D2; --card:#FFFFFF; --bg:#FFF9EF;
+    --top1:#1A9E8F; --top2:#3CC2B0; --accent:#127A6F;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  header{background:linear-gradient(135deg,var(--top1),var(--top2)); padding:36px 20px 44px; text-align:center}
+  header svg, header img{width:64px; height:64px; display:inline-block}
+  header h1{margin:8px 0 4px; font-size:28px; letter-spacing:.5px; color:#FFFFFF}
+  header p{margin:0; color:#E6FAF6; font-size:14px}
+  main{max-width:760px; margin:-24px auto 60px; padding:0 18px}
+  /* link dài (https://policies.google.com/…) không có chỗ ngắt → đẩy cả thẻ rộng quá màn điện thoại */
+  p, a{overflow-wrap:anywhere}
+  .card{background:var(--card); border-radius:16px; padding:30px 28px; box-shadow:0 2px 18px rgba(45,36,28,.10)}
+  h2{font-size:20px; margin:34px 0 10px; padding-top:20px; border-top:1px solid var(--line)}
+  p,li{color:#3F352D}
+  a{color:var(--accent)}
+  .lead{background:#DDF3EF; border-left:4px solid var(--accent); padding:14px 16px; border-radius:0 10px 10px 0; margin:0 0 6px}
+  .updated{color:var(--muted); font-size:13px; margin:0 0 6px}
+  footer{text-align:center; color:var(--muted); font-size:13px; padding:26px 18px 40px}
+
+  /*  Thanh chọn ngôn ngữ chỉ có tác dụng khi có JavaScript nên mặc định ẩn.
+      Không có JS thì cả năm bản vẫn nằm nguyên trong trang, cuộn xuống là đọc
+      được — nội dung không bao giờ biến mất vì script không chạy.  */
+  .tabs{display:none; flex-wrap:wrap; gap:8px; justify-content:center; margin:0 0 22px}
+  .js .tabs{display:flex}
+  .tab{font:inherit; font-size:14px; font-weight:600; cursor:pointer; padding:8px 14px;
+    border-radius:999px; border:1px solid var(--line); background:#fff; color:#4A3F37}
+  .tab:hover{border-color:var(--accent)}
+  .tab.on{background:#DDF3EF; border-color:var(--accent); color:var(--ink)}
+  .tab:focus-visible{outline:3px solid var(--accent); outline-offset:2px}
+  .policy + .policy{border-top:1px solid var(--line); margin-top:36px; padding-top:10px}
+  .js .policy + .policy{border-top:0; margin-top:0; padding-top:0}
+  [hidden]{display:none !important}
+</style>
+</head>
+<body>
+
+<header>
+  <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 100 100"><ellipse cx="23" cy="55" rx="8" ry="11" fill="#F4B416"/><ellipse cx="77" cy="55" rx="8" ry="11" fill="#F4B416"/><circle cx="50" cy="50" r="28" fill="#FFD23F"/><path d="M24 58 C30 74 70 74 76 58 C70 68 30 68 24 58 Z" fill="#F4B416" opacity="0.45"/><circle cx="34" cy="53" r="4.2" fill="#FF8F7A" opacity="0.6"/><circle cx="66" cy="53" r="4.2" fill="#FF8F7A" opacity="0.6"/><circle cx="41" cy="45" r="3.8" fill="#2B1E16"/><circle cx="59" cy="45" r="3.8" fill="#2B1E16"/><circle cx="42.4" cy="43.6" r="1.3" fill="#FFFFFF"/><circle cx="60.4" cy="43.6" r="1.3" fill="#FFFFFF"/><path d="M44.5 50 L55.5 50 L50 56.5 Z" fill="#FF8A3D"/><path d="M44.5 50 L55.5 50 L50 52.5 Z" fill="#FFB070"/><path d="M30 31 L35.5 26 L40.5 31.5 L46 25 L51.5 31 L57 25.5 L62 31.5 L67 27 L69 31 C67 16 58 10 49 10.5 C39 11 31 18 30 31 Z" fill="#FFF8EA" stroke="#E2CFAE" stroke-width="1.8"/><path d="M15 63 C15 84 31 97 50 97 C69 97 85 84 85 63 L79 57.5 L72.5 64 L65.5 57.5 L58.5 64 L51.5 57.5 L44.5 64 L37.5 57.5 L30.5 64 L23.5 57.5 Z" fill="#FFF8EA" stroke="#E2CFAE" stroke-width="2"/><path d="M24 72 C25 82 31 88 38 91" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <h1>HatchMate</h1>
+  <p>Privacy Policy</p>
+</header>
+
+<main>
+<div class="card">
+
+  <div class="tabs">
+    <button type="button" class="tab" data-lang="en">🇬🇧 English</button>
+    <button type="button" class="tab" data-lang="vi">🇻🇳 Tiếng Việt</button>
+    <button type="button" class="tab" data-lang="es">🇪🇸 Español</button>
+    <button type="button" class="tab" data-lang="pt">🇧🇷 Português</button>
+    <button type="button" class="tab" data-lang="id">🇮🇩 Bahasa Indonesia</button>
+  </div>
+
+  <section class="policy" data-lang="en" lang="en">
+    <p class="updated">Last updated: 14 October 2026</p>
+    <p class="lead">HatchMate (by TieChan Software) helps you track eggs in your incubator: day count, turning, candling and hatch-day reminders. We do not ask you to create an account, and we do not collect your name, email address, phone number or location. Google AdMob, which shows the ads, does collect some data — see Advertising below.</p>
+    <h2>Data stored on your device</h2>
+    <p>The batches you create (bird, set date, number of eggs, candling marks, turning log, hatch results), your language, temperature unit and reminder settings are saved only in the app's private storage on your phone. We never receive a copy. If Android backup is turned on for your Google account, Android may include this app data in your own device backup so it can be restored on a new phone; that backup belongs to your Google account and we cannot access it.</p>
+    <h2>Notifications</h2>
+    <p>If you allow notifications, the app schedules reminders (turning, candling, stop-turning and hatch day) on your phone. They are created and shown by your phone only; nothing is sent to a server. You can turn them off in the app's Settings or in your phone's settings.</p>
+    <h2>Permissions</h2>
+    <p>Notifications: to remind you when to turn and candle the eggs. Internet: only for ads. The app does not use your camera, microphone, contacts, photos or location.</p>
+    <h2>Advertising</h2>
+    <p>The app is free and shows ads through Google AdMob: a banner at the bottom of some screens, an occasional full-screen ad after you save a candling or add a batch, and a short ad you can choose to watch when you add a third batch while two are already running. To serve ads, Google may collect your device's advertising ID and technical information about your device. This is handled by Google, not by us. You can reset or delete your advertising ID in Android Settings → Privacy → Ads. Google's policy: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+    <h2>What Google may collect</h2>
+    <p>An advertising identifier and app set ID (resettable IDs, not your name); your IP address, used to estimate your approximate location; app interactions, such as app launches, taps and ad views; and diagnostic and device information, such as device type, operating system version, app launch time and hang rate. Google uses this data to show and measure ads, for analytics and to prevent fraud, and it is sent over encrypted connections.</p>
+    <h2>Users in Europe</h2>
+    <p>If you are in the European Economic Area, the UK or Switzerland, the app first asks for your consent (using Google's consent form) before your data is used for personalised ads. You can change your choice at any time in Settings → Ad privacy choices. If you do not consent, you may still see ads, but they will not be personalised.</p>
+    <h2>Data security</h2>
+    <p>HatchMate has no server and no account, so we never receive or store your data anywhere. Your batches and settings are kept in the app's private storage on your device, which other apps cannot read. The advertising data described above is collected and sent by Google's AdMob SDK over encrypted (HTTPS) connections and handled under Google's own privacy policy.</p>
+    <h2>Data retention and deletion</h2>
+    <p>Your batches stay on your device until you delete them in the app, clear the app's data or uninstall the app; each of these deletes them immediately. We hold no copy that would need deleting.</p>
+    <h2>Incubation guidance</h2>
+    <p>Temperatures, humidity ranges and day counts in the app are typical values from university extension guides and incubator makers. Always follow your incubator manual.</p>
+    <h2>Children</h2>
+    <p>This app is rated for users 13 and older and is not directed at children.</p>
+    <h2>Changes</h2>
+    <p>If this policy changes, we will update this page and the date above.</p>
+    <h2>Contact</h2>
+    <p>leductien1997123@gmail.com</p>
+  </section>
+
+  <section class="policy" data-lang="vi" lang="vi">
+    <p class="updated">Cập nhật: 14/10/2026</p>
+    <p class="lead">HatchMate (của TieChan Software) giúp bạn theo dõi trứng trong máy ấp: đếm ngày, nhắc đảo trứng, soi trứng và ngày nở. Chúng tôi không yêu cầu bạn tạo tài khoản và không thu thập tên, email, số điện thoại hay vị trí của bạn. Riêng Google AdMob (bên hiện quảng cáo) có thu thập một số dữ liệu — xem mục Quảng cáo bên dưới.</p>
+    <h2>Dữ liệu lưu trong máy bạn</h2>
+    <p>Các mẻ trứng bạn tạo (loài, ngày vào trứng, số trứng, kết quả soi, số lần đảo, kết quả nở), ngôn ngữ, đơn vị nhiệt độ và cài đặt nhắc việc chỉ được lưu trong vùng lưu trữ riêng của ứng dụng trên điện thoại. Chúng tôi không nhận được bản sao nào. Nếu tài khoản Google của bạn bật sao lưu Android, Android có thể đưa dữ liệu này vào bản sao lưu máy của chính bạn để khôi phục khi đổi máy; bản sao lưu đó thuộc tài khoản Google của bạn và chúng tôi không truy cập được.</p>
+    <h2>Thông báo</h2>
+    <p>Nếu bạn cho phép, ứng dụng hẹn các lời nhắc (đảo trứng, soi trứng, ngừng đảo, ngày nở) ngay trên điện thoại. Lời nhắc do chính máy bạn tạo và hiện, không gửi gì lên máy chủ. Bạn có thể tắt trong Cài đặt của ứng dụng hoặc cài đặt máy.</p>
+    <h2>Quyền truy cập</h2>
+    <p>Thông báo: để nhắc bạn lúc cần đảo và soi trứng. Internet: chỉ để hiện quảng cáo. Ứng dụng không dùng máy ảnh, micro, danh bạ, ảnh hay vị trí của bạn.</p>
+    <h2>Quảng cáo</h2>
+    <p>Ứng dụng miễn phí và hiện quảng cáo qua Google AdMob: banner ở đáy một số màn, thỉnh thoảng một quảng cáo toàn màn hình sau khi bạn lưu kết quả soi hoặc thêm mẻ, và một quảng cáo ngắn bạn có thể chọn xem khi thêm mẻ thứ ba trong lúc đã có hai mẻ đang ấp. Để phục vụ quảng cáo, Google có thể thu thập mã quảng cáo của thiết bị và thông tin kỹ thuật về máy. Phần này do Google xử lý, không phải chúng tôi. Bạn có thể đặt lại hoặc xoá mã quảng cáo trong Cài đặt Android → Quyền riêng tư → Quảng cáo. Chính sách của Google: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+    <h2>Google có thể thu thập gì</h2>
+    <p>Mã nhận dạng quảng cáo và mã nhóm ứng dụng (mã đặt lại được, không phải tên bạn); địa chỉ IP, dùng để đoán vị trí gần đúng của bạn; tương tác với ứng dụng, như lượt mở ứng dụng, lượt chạm và lượt xem quảng cáo; và thông tin chẩn đoán và thiết bị, như loại máy, phiên bản hệ điều hành, thời gian mở ứng dụng và tình trạng treo. Google dùng dữ liệu này để hiện và đo lường quảng cáo, để phân tích và để chống gian lận; dữ liệu được gửi qua kết nối mã hoá.</p>
+    <h2>Người dùng ở châu Âu</h2>
+    <p>Nếu bạn ở Khu vực Kinh tế Châu Âu, Vương quốc Anh hoặc Thuỵ Sĩ, ứng dụng sẽ hỏi bạn đồng ý trước (bằng bảng hỏi của Google) rồi mới dùng dữ liệu cho quảng cáo cá nhân hoá. Bạn có thể đổi lựa chọn bất cứ lúc nào trong Cài đặt → Lựa chọn quyền riêng tư quảng cáo. Nếu bạn không đồng ý, bạn vẫn có thể thấy quảng cáo nhưng không được cá nhân hoá.</p>
+    <h2>Bảo mật dữ liệu</h2>
+    <p>HatchMate không có máy chủ và không có tài khoản, nên chúng tôi không bao giờ nhận hay lưu dữ liệu của bạn ở bất kỳ đâu. Các mẻ trứng và cài đặt nằm trong vùng lưu trữ riêng của ứng dụng trên máy bạn, ứng dụng khác không đọc được. Dữ liệu quảng cáo nói ở trên do bộ AdMob của Google thu thập và gửi qua kết nối mã hoá (HTTPS), và được xử lý theo chính sách quyền riêng tư của Google.</p>
+    <h2>Thời gian lưu và cách xoá</h2>
+    <p>Các mẻ trứng nằm trên máy cho tới khi bạn xoá trong ứng dụng, xoá dữ liệu ứng dụng hoặc gỡ ứng dụng; làm cách nào cũng xoá ngay. Chúng tôi không giữ bản sao nào cần xoá.</p>
+    <h2>Thông số ấp trứng</h2>
+    <p>Nhiệt độ, độ ẩm và số ngày trong ứng dụng là số liệu phổ biến từ tài liệu khuyến nông của các trường đại học và nhà sản xuất máy ấp. Luôn làm theo sách hướng dẫn máy ấp của bạn.</p>
+    <h2>Trẻ em</h2>
+    <p>Ứng dụng dành cho người dùng từ 13 tuổi trở lên và không nhắm tới trẻ em.</p>
+    <h2>Thay đổi</h2>
+    <p>Nếu chính sách này thay đổi, chúng tôi sẽ cập nhật trang này và ngày ở trên.</p>
+    <h2>Liên hệ</h2>
+    <p>leductien1997123@gmail.com</p>
+  </section>
+
+  <section class="policy" data-lang="es" lang="es">
+    <p class="updated">Actualizado: 14 de octubre de 2026</p>
+    <p class="lead">HatchMate (de TieChan Software) te ayuda a seguir los huevos de tu incubadora: cuenta de días y avisos de volteo, ovoscopia y eclosión. No te pedimos crear una cuenta y no recogemos tu nombre, correo, teléfono ni ubicación. Google AdMob, que muestra los anuncios, sí recoge algunos datos: consulta Publicidad más abajo.</p>
+    <h2>Datos guardados en tu dispositivo</h2>
+    <p>Los lotes que creas (ave, fecha de puesta, número de huevos, marcas de ovoscopia, registro de volteo, resultados de eclosión), tu idioma, la unidad de temperatura y los avisos se guardan solo en el almacenamiento privado de la app en tu teléfono. Nunca recibimos una copia. Si tu cuenta de Google tiene activada la copia de seguridad de Android, Android puede incluir estos datos en tu propia copia para restaurarlos en un teléfono nuevo; esa copia pertenece a tu cuenta de Google y no podemos acceder a ella.</p>
+    <h2>Notificaciones</h2>
+    <p>Si las permites, la app programa avisos (volteo, ovoscopia, fin del volteo y día de eclosión) en tu teléfono. Los crea y muestra tu propio teléfono; no se envía nada a ningún servidor. Puedes desactivarlos en los Ajustes de la app o del teléfono.</p>
+    <h2>Permisos</h2>
+    <p>Notificaciones: para avisarte cuándo voltear y revisar los huevos. Internet: solo para los anuncios. La app no usa tu cámara, micrófono, contactos, fotos ni ubicación.</p>
+    <h2>Publicidad</h2>
+    <p>La app es gratuita y muestra anuncios mediante Google AdMob: un banner en la parte inferior de algunas pantallas, de vez en cuando un anuncio a pantalla completa después de guardar una ovoscopia o añadir un lote, y un anuncio corto que puedes elegir ver al añadir un tercer lote cuando ya tienes dos en marcha. Para mostrar anuncios, Google puede recoger el ID de publicidad de tu dispositivo e información técnica sobre él. Esto lo gestiona Google, no nosotros. Puedes restablecer o eliminar tu ID de publicidad en Ajustes de Android → Privacidad → Anuncios. Política de Google: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+    <h2>Qué puede recoger Google</h2>
+    <p>Un identificador de publicidad y el ID de conjunto de apps (identificadores que se pueden restablecer, no tu nombre); tu dirección IP, que se usa para estimar tu ubicación aproximada; interacciones con la app, como aperturas, toques y anuncios vistos; e información de diagnóstico y del dispositivo, como el tipo de dispositivo, la versión del sistema operativo, el tiempo de inicio de la app y los bloqueos. Google usa estos datos para mostrar y medir anuncios, para análisis y para prevenir el fraude, y se envían mediante conexiones cifradas.</p>
+    <h2>Usuarios en Europa</h2>
+    <p>Si estás en el Espacio Económico Europeo, el Reino Unido o Suiza, la app te pide primero tu consentimiento (con el formulario de Google) antes de usar tus datos para anuncios personalizados. Puedes cambiar tu elección en cualquier momento en Ajustes → Opciones de privacidad de anuncios. Si no das tu consentimiento, puedes seguir viendo anuncios, pero no serán personalizados.</p>
+    <h2>Seguridad de los datos</h2>
+    <p>HatchMate no tiene servidor ni cuentas, así que nunca recibimos ni guardamos tus datos en ningún sitio. Tus lotes y ajustes se guardan en el almacenamiento privado de la app en tu dispositivo, que otras apps no pueden leer. Los datos de publicidad descritos arriba los recoge y envía el SDK AdMob de Google mediante conexiones cifradas (HTTPS) y se tratan según la política de privacidad de Google.</p>
+    <h2>Conservación y eliminación</h2>
+    <p>Tus lotes permanecen en tu dispositivo hasta que los borres en la app, borres los datos de la app o la desinstales; cualquiera de estas acciones los elimina de inmediato. No guardamos ninguna copia que haya que borrar.</p>
+    <h2>Datos de incubación</h2>
+    <p>Las temperaturas, humedades y días de la app son valores habituales de guías universitarias de extensión agraria y de fabricantes de incubadoras. Sigue siempre el manual de tu incubadora.</p>
+    <h2>Menores</h2>
+    <p>Esta app está clasificada para mayores de 13 años y no está dirigida a niños.</p>
+    <h2>Cambios</h2>
+    <p>Si esta política cambia, actualizaremos esta página y la fecha de arriba.</p>
+    <h2>Contacto</h2>
+    <p>leductien1997123@gmail.com</p>
+  </section>
+
+  <section class="policy" data-lang="pt" lang="pt">
+    <p class="updated">Última atualização: 14 de outubro de 2026</p>
+    <p class="lead">O HatchMate (da TieChan Software) ajuda você a acompanhar os ovos na chocadeira: contagem de dias e lembretes de viragem, ovoscopia e eclosão. Não pedimos que você crie uma conta e não coletamos seu nome, e-mail, telefone nem localização. O Google AdMob, que mostra os anúncios, coleta alguns dados — veja Publicidade abaixo.</p>
+    <h2>Dados guardados no seu aparelho</h2>
+    <p>Os lotes que você cria (ave, data de colocação, número de ovos, marcações de ovoscopia, registro de viragem, resultados da eclosão), o idioma, a unidade de temperatura e os lembretes ficam salvos apenas no armazenamento privado do app no seu celular. Nunca recebemos uma cópia. Se a sua conta Google tiver o backup do Android ativado, o Android pode incluir esses dados no seu próprio backup para restaurá-los num celular novo; esse backup pertence à sua conta Google e não temos acesso a ele.</p>
+    <h2>Notificações</h2>
+    <p>Se você permitir, o app agenda lembretes (viragem, ovoscopia, parar de virar e dia da eclosão) no seu celular. Eles são criados e mostrados pelo próprio celular; nada é enviado a um servidor. Você pode desativá-los nos Ajustes do app ou do celular.</p>
+    <h2>Permissões</h2>
+    <p>Notificações: para lembrar a hora de virar e de fazer a ovoscopia. Internet: só para os anúncios. O app não usa sua câmera, microfone, contatos, fotos nem localização.</p>
+    <h2>Publicidade</h2>
+    <p>O app é gratuito e mostra anúncios pelo Google AdMob: um banner na parte de baixo de algumas telas, de vez em quando um anúncio em tela cheia depois de salvar uma ovoscopia ou adicionar um lote, e um anúncio curto que você pode escolher assistir ao adicionar um terceiro lote quando já há dois em andamento. Para exibir anúncios, o Google pode coletar o ID de publicidade do aparelho e informações técnicas sobre ele. Isso é feito pelo Google, não por nós. Você pode redefinir ou excluir seu ID de publicidade em Configurações do Android → Privacidade → Anúncios. Política do Google: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+    <h2>O que o Google pode coletar</h2>
+    <p>Um identificador de publicidade e o ID do conjunto de apps (identificadores que podem ser redefinidos, não o seu nome); seu endereço IP, usado para estimar sua localização aproximada; interações com o app, como aberturas, toques e anúncios vistos; e informações de diagnóstico e do aparelho, como tipo de aparelho, versão do sistema, tempo de abertura do app e travamentos. O Google usa esses dados para exibir e medir anúncios, para análises e para evitar fraudes, e eles são enviados por conexões criptografadas.</p>
+    <h2>Usuários na Europa</h2>
+    <p>Se você está no Espaço Econômico Europeu, no Reino Unido ou na Suíça, o app primeiro pede seu consentimento (com o formulário do Google) antes de usar seus dados em anúncios personalizados. Você pode mudar sua escolha a qualquer momento em Ajustes → Opções de privacidade de anúncios. Se não consentir, você ainda pode ver anúncios, mas eles não serão personalizados.</p>
+    <h2>Segurança dos dados</h2>
+    <p>O HatchMate não tem servidor nem contas, então nunca recebemos nem guardamos seus dados em lugar nenhum. Seus lotes e ajustes ficam no armazenamento privado do app no seu aparelho, que outros apps não conseguem ler. Os dados de publicidade descritos acima são coletados e enviados pelo SDK AdMob do Google por conexões criptografadas (HTTPS) e tratados conforme a política de privacidade do Google.</p>
+    <h2>Retenção e exclusão</h2>
+    <p>Seus lotes ficam no aparelho até você excluí-los no app, limpar os dados do app ou desinstalá-lo; qualquer uma dessas ações os apaga na hora. Não guardamos nenhuma cópia que precise ser apagada.</p>
+    <h2>Orientações de incubação</h2>
+    <p>Temperaturas, umidades e dias mostrados no app são valores comuns de guias de extensão rural de universidades e de fabricantes de chocadeiras. Siga sempre o manual da sua chocadeira.</p>
+    <h2>Crianças</h2>
+    <p>Este app é classificado para maiores de 13 anos e não é direcionado a crianças.</p>
+    <h2>Mudanças</h2>
+    <p>Se esta política mudar, atualizaremos esta página e a data acima.</p>
+    <h2>Contato</h2>
+    <p>leductien1997123@gmail.com</p>
+  </section>
+
+  <section class="policy" data-lang="id" lang="id">
+    <p class="updated">Terakhir diperbarui: 14 Oktober 2026</p>
+    <p class="lead">HatchMate (dari TieChan Software) membantu Anda memantau telur di mesin tetas: hitungan hari serta pengingat membalik, meneropong, dan hari menetas. Kami tidak meminta Anda membuat akun dan tidak mengumpulkan nama, email, nomor telepon, atau lokasi Anda. Google AdMob, yang menampilkan iklan, memang mengumpulkan sebagian data — lihat bagian Iklan di bawah.</p>
+    <h2>Data yang disimpan di perangkat Anda</h2>
+    <p>Penetasan yang Anda buat (jenis unggas, tanggal telur masuk, jumlah telur, hasil teropong, catatan membalik, hasil menetas), bahasa, satuan suhu, dan pengaturan pengingat hanya disimpan di penyimpanan pribadi aplikasi di ponsel Anda. Kami tidak pernah menerima salinannya. Jika akun Google Anda mengaktifkan cadangan Android, Android dapat memasukkan data ini ke cadangan perangkat Anda sendiri agar bisa dipulihkan di ponsel baru; cadangan itu milik akun Google Anda dan kami tidak dapat mengaksesnya.</p>
+    <h2>Notifikasi</h2>
+    <p>Jika Anda mengizinkan, aplikasi menjadwalkan pengingat (membalik, meneropong, berhenti membalik, dan hari menetas) di ponsel Anda. Pengingat dibuat dan ditampilkan oleh ponsel Anda sendiri; tidak ada yang dikirim ke server. Anda bisa mematikannya di Pengaturan aplikasi atau pengaturan ponsel.</p>
+    <h2>Izin</h2>
+    <p>Notifikasi: untuk mengingatkan waktu membalik dan meneropong telur. Internet: hanya untuk iklan. Aplikasi tidak menggunakan kamera, mikrofon, kontak, foto, atau lokasi Anda.</p>
+    <h2>Iklan</h2>
+    <p>Aplikasi ini gratis dan menampilkan iklan melalui Google AdMob: banner di bagian bawah beberapa layar, sesekali iklan layar penuh setelah Anda menyimpan hasil teropong atau menambah penetasan, dan iklan singkat yang bisa Anda pilih untuk ditonton saat menambah penetasan ketiga ketika dua penetasan sedang berjalan. Untuk menampilkan iklan, Google dapat mengumpulkan ID iklan perangkat dan informasi teknis tentang perangkat. Hal ini ditangani oleh Google, bukan oleh kami. Anda dapat mereset atau menghapus ID iklan di Setelan Android → Privasi → Iklan. Kebijakan Google: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+    <h2>Yang mungkin dikumpulkan Google</h2>
+    <p>ID iklan dan ID set aplikasi (ID yang bisa direset, bukan nama Anda); alamat IP Anda, yang dipakai untuk memperkirakan lokasi Anda secara kasar; interaksi dengan aplikasi, seperti membuka aplikasi, ketukan, dan iklan yang dilihat; serta informasi diagnostik dan perangkat, seperti jenis perangkat, versi sistem operasi, waktu buka aplikasi, dan aplikasi macet. Google memakai data ini untuk menampilkan dan mengukur iklan, untuk analitik, dan untuk mencegah penipuan, dan data dikirim melalui koneksi terenkripsi.</p>
+    <h2>Pengguna di Eropa</h2>
+    <p>Jika Anda berada di Wilayah Ekonomi Eropa, Inggris, atau Swiss, aplikasi akan meminta persetujuan Anda terlebih dahulu (dengan formulir dari Google) sebelum data Anda dipakai untuk iklan yang dipersonalisasi. Anda bisa mengubah pilihan kapan saja di Pengaturan → Pilihan privasi iklan. Jika Anda tidak setuju, Anda tetap bisa melihat iklan, tetapi tidak dipersonalisasi.</p>
+    <h2>Keamanan data</h2>
+    <p>HatchMate tidak memiliki server dan akun, jadi kami tidak pernah menerima atau menyimpan data Anda di mana pun. Penetasan dan pengaturan Anda disimpan di penyimpanan pribadi aplikasi di perangkat Anda, yang tidak bisa dibaca aplikasi lain. Data iklan yang dijelaskan di atas dikumpulkan dan dikirim oleh SDK AdMob milik Google melalui koneksi terenkripsi (HTTPS) dan ditangani sesuai kebijakan privasi Google.</p>
+    <h2>Penyimpanan dan penghapusan</h2>
+    <p>Penetasan Anda tetap ada di perangkat sampai Anda menghapusnya di aplikasi, menghapus data aplikasi, atau mencopot aplikasi; masing-masing langsung menghapusnya. Kami tidak menyimpan salinan apa pun yang perlu dihapus.</p>
+    <h2>Panduan penetasan</h2>
+    <p>Suhu, kelembapan, dan jumlah hari di aplikasi adalah angka umum dari panduan penyuluhan universitas dan produsen mesin tetas. Selalu ikuti buku petunjuk mesin tetas Anda.</p>
+    <h2>Anak-anak</h2>
+    <p>Aplikasi ini ditujukan untuk pengguna berusia 13 tahun ke atas dan tidak ditujukan untuk anak-anak.</p>
+    <h2>Perubahan</h2>
+    <p>Jika kebijakan ini berubah, kami akan memperbarui halaman ini dan tanggal di atas.</p>
+    <h2>Kontak</h2>
+    <p>leductien1997123@gmail.com</p>
+  </section>
+
+</div>
+</main>
+
+<footer>HatchMate · com.tien.hatchmate · by TieChan Software</footer>
+
+<script>
+(function () {
+  var LANGS = ['en', 'vi', 'es', 'pt', 'id'];
+
+  function show(lang) {
+    document.querySelectorAll('.policy').forEach(function (p) {
+      p.hidden = p.getAttribute('data-lang') !== lang;
+    });
+    document.querySelectorAll('.tab').forEach(function (n) {
+      n.classList.toggle('on', n.getAttribute('data-lang') === lang);
+    });
+    document.documentElement.lang = lang;
+    try { history.replaceState(null, '', '#' + lang); } catch (e) {}
+  }
+
+  //  Bật thanh chọn TRƯỚC, ẩn nội dung SAU. Đảo thứ tự mà đoạn dưới lỗi thì
+  //  trang trắng trơn: nội dung đã ẩn mà nút chuyển thì chưa hiện.
+  document.documentElement.className += ' js';
+
+  document.querySelectorAll('.tab').forEach(function (btn) {
+    btn.addEventListener('click', function () { show(btn.getAttribute('data-lang')); });
+  });
+
+  //  Ưu tiên phần neo trên URL (#vi) — app mở link kèm ngôn ngữ đang chọn;
+  //  không có thì lấy theo ngôn ngữ máy. 'in' là mã cũ của tiếng Indonesia.
+  var pick = (location.hash || '').replace('#', '');
+  if (LANGS.indexOf(pick) < 0) {
+    var device = (navigator.language || 'en').slice(0, 2).toLowerCase();
+    if (device === 'in') device = 'id';
+    pick = LANGS.indexOf(device) >= 0 ? device : 'en';
+  }
+  show(pick);
+})();
+</script>
+
+</body>
+</html>
